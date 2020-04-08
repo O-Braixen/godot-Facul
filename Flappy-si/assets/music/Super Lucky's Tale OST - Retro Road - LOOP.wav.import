@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Super Lucky's Tale OST - Retro Road - LOOP.wav-0d76ed2676e67be9b25de79b9759f32e.sample"
+
+[deps]
+
+source_file="res://assets/music/Super Lucky's Tale OST - Retro Road - LOOP.wav"
+dest_files=[ "res://.import/Super Lucky's Tale OST - Retro Road - LOOP.wav-0d76ed2676e67be9b25de79b9759f32e.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

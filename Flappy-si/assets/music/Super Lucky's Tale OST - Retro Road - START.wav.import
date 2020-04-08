@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Super Lucky's Tale OST - Retro Road - START.wav-9b0a726f04735c9dc641ad0e427389cb.sample"
+
+[deps]
+
+source_file="res://assets/music/Super Lucky's Tale OST - Retro Road - START.wav"
+dest_files=[ "res://.import/Super Lucky's Tale OST - Retro Road - START.wav-9b0a726f04735c9dc641ad0e427389cb.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

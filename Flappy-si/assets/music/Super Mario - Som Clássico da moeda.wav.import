@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Super Mario - Som Clássico da moeda.wav-fee9431b1f2f0b4008d6e389ecb5458b.sample"
+
+[deps]
+
+source_file="res://assets/music/Super Mario - Som Clássico da moeda.wav"
+dest_files=[ "res://.import/Super Mario - Som Clássico da moeda.wav-fee9431b1f2f0b4008d6e389ecb5458b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

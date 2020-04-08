@@ -1,0 +1,47 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://assets/bg/pipe_up.png" type="Texture" id=1]
+[ext_resource path="res://script/Pipe.gd" type="Script" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 40.1971, 250.974 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 39.4753, 214.982 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 8.53589, 88.0488 )
+
+[node name="Pipe" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="pipe_up" type="Sprite" parent="."]
+position = Vector2( 536.625, 419.002 )
+scale = Vector2( 0.5, 1 )
+texture = ExtResource( 1 )
+
+[node name="pipe_down" type="Sprite" parent="."]
+position = Vector2( 532.125, -234.462 )
+rotation = 3.14159
+scale = Vector2( 0.5, 1 )
+texture = ExtResource( 1 )
+
+[node name="area" type="Area2D" parent="."]
+position = Vector2( 5.57898, 0 )
+
+[node name="Collision_top" type="CollisionShape2D" parent="area"]
+position = Vector2( 525.455, -252.986 )
+shape = SubResource( 1 )
+
+[node name="Collision_down" type="CollisionShape2D" parent="area"]
+position = Vector2( 530.952, 400.512 )
+shape = SubResource( 2 )
+
+[node name="area_score" type="Area2D" parent="."]
+position = Vector2( 11.158, 0 )
+
+[node name="Collision_score" type="CollisionShape2D" parent="area_score"]
+position = Vector2( 492.28, 91.3179 )
+shape = SubResource( 3 )
+[connection signal="body_entered" from="area" to="." method="_on_area_body_entered"]
+[connection signal="body_entered" from="area_score" to="." method="_on_area_score_body_entered"]

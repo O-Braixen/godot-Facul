@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/super_mario_medley (online-audio-converter.com).wav-70c8821cc2a141e203b0c0c4bbe4a4b2.sample"
+
+[deps]
+
+source_file="res://assets/music/super_mario_medley (online-audio-converter.com).wav"
+dest_files=[ "res://.import/super_mario_medley (online-audio-converter.com).wav-70c8821cc2a141e203b0c0c4bbe4a4b2.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
